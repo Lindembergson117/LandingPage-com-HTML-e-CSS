@@ -1,0 +1,127 @@
+
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#cima{
+    background: url('imag/pexels.jpg') no-repeat center top;
+    padding-bottom: 40px;
+    background-size: cover;
+}
+
+.logo img{
+    max-width: 180px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.conteudo{
+    max-width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+.conteudo div{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+
+.conteudo h3{
+    color: #1a2716;
+    text-align: center;
+    text-shadow: rgb(48, 12, 12) 0.3em 0.3em 0.6em;
+    font-size: 25px;
+}
+.conteudo p{
+    color: white;
+    text-align: center;
+    text-shadow: rgb(0, 0, 0) 0.2em 0.2em 0.3em
+}
+
+.formulario{
+    background: #67d2fe;
+    border:#134150 solid 3px;
+    border-radius:10px;
+    padding: 20px;
+}
+
+.formulario input[type="text"], .formulario input[type="email"], .formulario select{
+    width: 100%;
+    box-sizing: border-box;
+    margin:10px 0;
+    border-radius: 200px;
+    border: 0;
+    padding: 8px 10px;
+    box-shadow: inset 0px 1px 4px rgba(0 0 0/75%);
+}
+.formulario label{ display: block;}
+
+.formulario input[type="submit"]{
+    width:80%;
+    margin: 20px auto 10px auto;
+    display: block;
+    background:#134150;
+    border: none;
+    padding: 15px;
+    border-radius: 200px;
+    color: white;
+}
+
+.dest{
+    color:#fff;
+}
+
+.Aceitar{
+    font-size:14px;
+}
+
+#baixo{
+    background-color: #287A90;
+    padding: 15px 0;
+}
+.conteudo-baixo{
+    max-width: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-top: solid 7px #151c13;
+    text-align: center;
+    padding: 20px;
+}
+.info{
+    color: white;
+    text-shadow: rgb(43, 14, 14) 0.2em 0.2em 0.4em;
+}
+.info h3{
+    color: #151c13;
+    font-size: 24px;
+}
+.vantagens{
+    overflow: hidden;
+}
+.vantagens div{ 
+    float: left;
+    width: 33%;
+    box-sizing: border-box;
+}
+.vantagens img{ 
+    float: center;
+    display: block;
+    width:30%;
+    margin: 0 auto;
+}
+.vantagens p{ 
+    color: white;
+    text-align:center
+}
+
+@media (max-width:496px){
+    .conteudo div{width: 100%;}
+    .vantagens div{width:100%;}
+}
